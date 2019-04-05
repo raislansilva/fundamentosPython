@@ -1,0 +1,3 @@
+criar uma venv = python3 -m venv venv
+instalar o django = pip install django
+Criar um projeto - django-admin startproject nomeProjeto .
