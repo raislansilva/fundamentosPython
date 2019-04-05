@@ -1,3 +1,7 @@
-criar uma venv = python3 -m venv venv
+criar uma venv = python3 -m venv venv  /  ativar na pasta venv/bin/activate
 instalar o django = pip install django
-Criar um projeto - django-admin startproject nomeProjeto .
+Criar um projeto =  django-admin startproject nomeProjeto .
+Criar uma app no django = python manage.py startapp nomeapp /passo seguinte registrar o nome da app no arquivo settings em installed_apps
+criar um banco de dados = python manage.py migrate
+rodar a aplicação = python manage.py run server
+criar super usuário = python manage.py createsuperuser
