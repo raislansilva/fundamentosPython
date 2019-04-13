@@ -8,3 +8,5 @@ criar super usuário = python manage.py createsuperuser
 Criar um model = python manage.py makemigrations //para gravar a model de que usar o comando python manage.py migrate
 
 tutorial docker-django = http://marcusalmeida.github.io/2016/desenvolvendo-com-django-docker-compose/
+
+https://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/
