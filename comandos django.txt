@@ -12,3 +12,6 @@ tutorial docker-django = http://marcusalmeida.github.io/2016/desenvolvendo-com-d
 https://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/
 
 https://jtemporal.com/subindo-imagens-docker-pro-dockerhub/
+
+//template django
+https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template
