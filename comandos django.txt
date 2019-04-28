@@ -15,3 +15,5 @@ https://jtemporal.com/subindo-imagens-docker-pro-dockerhub/
 
 //template django
 https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template
+
+https://medium.com/trainingcenter/docker-dockerhub-pull-e-push-nas-suas-imagens-57dffa0232ad
