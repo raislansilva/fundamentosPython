@@ -21,3 +21,5 @@ https://medium.com/trainingcenter/docker-dockerhub-pull-e-push-nas-suas-imagens-
 https://wsvincent.com/django-user-authentication-tutorial-login-and-logout/
 
 https://wsvincent.com/django-custom-user-model-tutorial/
+
+https://simpleisbetterthancomplex.com/article/2017/08/19/how-to-render-django-form-manually.html
