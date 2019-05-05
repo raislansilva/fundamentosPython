@@ -13,6 +13,9 @@ https://woliveiras.com.br/posts/imagem-docker-ou-um-container-docker/
 
 https://jtemporal.com/subindo-imagens-docker-pro-dockerhub/
 
+commit = docker commit 9c09acd48a25 fedora-base-with-git
+
+
 //template django
 https://pythonacademy.com.br/blog/desenvolvimento-web-com-python-e-django-template
 
