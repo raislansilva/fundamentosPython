@@ -31,3 +31,7 @@ https://simpleisbetterthancomplex.com/article/2017/08/19/how-to-render-django-fo
 //projeto-django
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views
 https://github.com/mdn/django-locallibrary-tutorial
+
+//psql:FATAL: role user does not exist
+https://github.com/PostgresApp/PostgresApp/issues/313
+
