@@ -32,6 +32,14 @@ https://simpleisbetterthancomplex.com/article/2017/08/19/how-to-render-django-fo
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views
 https://github.com/mdn/django-locallibrary-tutorial
 
-//psql:FATAL: role user does not exist
+
+//postgres
+psql:FATAL: role user does not exist
 https://github.com/PostgresApp/PostgresApp/issues/313
+CREATE USER usro1 WITH PASSWORD ‘senhasegura‘;
+
+//comandos básicos
+http://jquerydicas.blogspot.com/2013/10/exibir-uma-lista-das-tabelas-de-um.html
+https://www.lucascaton.com.br/2010/05/23/resumo-de-comandos-uteis-do-postgresql/
+https://byclaudio.wordpress.com/2012/05/02/postgresql-criar-um-super-usuario/
 
