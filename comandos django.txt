@@ -43,3 +43,5 @@ http://jquerydicas.blogspot.com/2013/10/exibir-uma-lista-das-tabelas-de-um.html
 https://www.lucascaton.com.br/2010/05/23/resumo-de-comandos-uteis-do-postgresql/
 https://byclaudio.wordpress.com/2012/05/02/postgresql-criar-um-super-usuario/
 
+https://www.extjs-tutorial.com/extjs/sencha-cmd
+
