@@ -45,3 +45,21 @@ https://byclaudio.wordpress.com/2012/05/02/postgresql-criar-um-super-usuario/
 
 https://www.extjs-tutorial.com/extjs/sencha-cmd
 
+
+def validate(self):
+        #if self.authorized:
+            #raise Exception(u'O bilhete nao pode ser autorizado 1')
+        #return False
+
+    #def save(self, *args, **kargs):
+        #log.warning(u"Entrou no save.")
+        #self.validate()
+        #super(Ticket, self).save(*args, **kargs)
+        
+        
+ def validate(self):
+        if not self.authorized:
+            raise self.TicketErro()
+        return True       
+        
+
