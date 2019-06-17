@@ -61,5 +61,5 @@ def validate(self):
         if not self.authorized:
             raise self.TicketErro()
         return True       
-        
 
+https://medium.com/@beatrizuezu/visualizando-query-sql-a-partir-do-orm-django-5771370a9c55
