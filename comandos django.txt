@@ -46,15 +46,35 @@ https://byclaudio.wordpress.com/2012/05/02/postgresql-criar-um-super-usuario/
 https://www.extjs-tutorial.com/extjs/sencha-cmd
 
 
-def validate(self):
-        #if self.authorized:
-            #raise Exception(u'O bilhete nao pode ser autorizado 1')
+// django models validate
+class Meta:
+        unique_together = ('first_name', 'last_name')
+        ordering = ['last_name', 'first_name']
+
+
+    def unique_error_message(self, model_class, unique_check):
+        if model_class == type(self) and unique_check == ('first_name', 'last_name'):
+            raise Exception("erro de validação")
+        else:
+            return super(Author, self).unique_error_message(model_class, unique_check)      
+
+
+    #def validate(self):
+    
+        #value = Author.objects.filter(first_name='raislan').count()
+        #ident = Author.objects.filter(id=self.pk,first_name="raislan")
+
+        #if self.pk and value >=3 and self.first_name == "raislan" and not ident:
+            #raise Exception(u'erro de validação')
+        #elif not self.pk and value >=3 and self.first_name == "raislan":       
+            #raise Exception(u'erro de validação')
         #return False
 
-    #def save(self, *args, **kargs):
-        #log.warning(u"Entrou no save.")
+    def save(self, *args, **kargs):
         #self.validate()
-        #super(Ticket, self).save(*args, **kargs)
+        super(Author, self).save(*args, **kargs)
+
+
         
         
  def validate(self):
