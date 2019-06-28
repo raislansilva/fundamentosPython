@@ -75,6 +75,17 @@ class Meta:
         super(Author, self).save(*args, **kargs)
 
 
+    'qtd = Configuration.max_ticket_at('2017-05-10')
+        
+        value = Author.objects.filter(first_name='raislan').count()
+        ident = Author.objects.filter(id=self.pk,first_name="raislan")
+
+        if qtd != None:
+            if self.pk and value >=qtd and self.first_name == "raislan" and not ident:
+                raise Exception(u'erro de validação merda')
+            elif not self.pk and value >=qtd and self.first_name == "raislan":       
+                raise Exception(u'erro de validação caralho')
+            return False'
         
         
  def validate(self):
