@@ -95,4 +95,11 @@ class Meta:
 
 https://medium.com/@beatrizuezu/visualizando-query-sql-a-partir-do-orm-django-
 
+//get_or_create 
+def save(self, *args, **kargs):
+        self.editora, created = Editora.objects.get_or_create(name="veja")
+        super(Author, self).save(*args, **kargs)
+        
+        
+
 Solicito a inclusão no sistema SIMP no campo destinatário o Ministério Público do Estado do Maranhão para realizar encaminhamento a órgão externo de protocolo.
