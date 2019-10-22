@@ -103,3 +103,6 @@ def save(self, *args, **kargs):
         
 
 Solicito a inclusão no sistema SIMP no campo destinatário o Ministério Público do Estado do Maranhão para realizar encaminhamento a órgão externo de protocolo.
+
+select b.title,b.current_round,u.name from bettings b inner join users u on b.user_id = u.id;
+
