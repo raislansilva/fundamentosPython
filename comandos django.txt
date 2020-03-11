@@ -107,3 +107,6 @@ Solicito a inclusão no sistema SIMP no campo destinatário o Ministério Públi
 
 select b.title,b.current_round,u.name from bettings b inner join users u on b.user_id = u.id;
 
+
+https://www.magazinevoce.com.br/magazinerprecobom/
+
